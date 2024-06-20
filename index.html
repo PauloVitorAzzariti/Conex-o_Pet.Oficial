@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="jquery-3.7.1.min.map">
+    <link rel="stylesheet" href="style.css">
+    <title>Meta Filmes</title>
+</head>
+<body>
+    <header>
+        
+        <a href="#" class="Logo"><img src="img/Conexão Pet (1).png" width="100px" alt="Logo"></a>
+        <ul class="navbar">
+
+            <li><a href="cadastro.html">Cadastar PETS</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </header>
+    <div class="banner">
+        <div class="content active">
+            <img src="" alt="" class="movie-title" />
+            <h4>
+                <span>Boby</span>/<span><i>Macho</i></span>
+                <span> <br>4 meses</span><span>/</span>Castrado</span>
+            </h4>
+            <p>Boby chegou para nós com apenas um mês de vida, depois de ser encontrado abandonado em uma caixa de papelão na beira da estrada. Era uma bolinha de pelos, assustado e frágil, mas logo mostrou seu espírito alegre e brincalhão. Com o tempo, ele se tornou parte essencial da nossa família, enchendo nossos dias de risadas e carinho. Hoje, Boby é um cachorro forte e amoroso, que nos lembra diariamente a importância de dar uma segunda chance e o poder transformador do amor e da dedicação.</p>
+            <div class="button">
+                <a href="#">Disponível</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Adotar</a>
+            </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="img/15.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/16.jpg"></a>
+                <a class="carousel-item" href="#one!"><img src="img/17.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/18.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/19.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/20.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/21.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/22.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/23.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/24.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/25.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.carousel').carousel();
+
+        // Toggle menu on click
+        $('.menu-toggle').click(function() {
+            $('.navbar').toggleClass('active');
+        });
+    });
+    </script>
+</body>
+</html>
